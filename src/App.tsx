@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <AddStudentForm onAddStudent={addStudent} />
-
+      
       <h1>Student List</h1>
       <div className="student-list">
         {students.map(student => (
